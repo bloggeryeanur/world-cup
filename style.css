@@ -1,4 +1,4 @@
-/* google fonts */
+/* This is gooogle font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
@@ -12,7 +12,7 @@ body {
     margin: 50px auto;
 }
 
-/* Banner */
+/* Banner start */
 .bg-color {
     background: #161616;
     border-radius: 30px;
@@ -65,7 +65,7 @@ body {
     animation-iteration-count: infinite;
 }
 
-/* animation added */
+/* Some animation add */
 @keyframes angle {
     0% {
         color: #FFFFFF;
@@ -82,8 +82,9 @@ body {
         left: 32px;
     }
 }
+/* Banner end */
 
-/* This is blog section */
+/* Start blog section */
 .blog-left {
     display: flex;
 }
@@ -204,6 +205,8 @@ body {
     display: none;
 }
 
+/* End blog section */
+
 /* Footer statr */
 footer {
     background: #161616;
@@ -247,5 +250,4 @@ hr {
     color: #FFFFFF;
     margin-left: 30px;
 }
-
-
+/* Footer end */
